@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+          "pages/my/my",
+     
+    "pages/login/login",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "生命灵数密码学",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "selectedColor": "#51ABFF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "生命灵数",
+      "iconPath": "pages/index/img/caidan.png",
+      "selectedIconPath": "pages/index/img/caidan1.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "统计记录",
+      "iconPath": "pages/logs/img/caidan.png",
+      "selectedIconPath": "pages/logs/img/caidan1.png"
+    },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "pages/my/img/my.png",
+        "selectedIconPath": "pages/my/img/my1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

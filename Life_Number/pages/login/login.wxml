@@ -1,0 +1,7 @@
+<view class="container">
+
+<image class='logo' mode='center' src="{{img_num}}"  bindtap="clickMe"></image>
+<image class='wx_img' src='./img/wx.png'></image>
+<text bindtap="getuser">点击登录</text>  
+</view>
+ 

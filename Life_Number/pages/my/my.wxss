@@ -1,0 +1,60 @@
+/* pages/my/my.wxss */
+.main{
+  background: #f4f0f1;
+  height: 100vh;
+}
+.header{
+  height: 270rpx;
+  background: #00a4e2;
+
+}
+
+.lingshu text{
+  text-align: center;
+  height: 35rpx;
+  font-size: 32rpx;
+  color: #fff;
+ margin-left: 40rpx;
+}
+.tx{
+  height: 190rpx;
+ display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+  color: #fff;
+  font-size: 45rpx;
+  font-weight: bold;
+  display: block;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+.tx_img{
+  height: 130rpx;
+  width: 130rpx;
+  border-radius: 50%;
+   overflow: hidden;
+}
+.li_item{
+  height: 120rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #f4f0f1;
+}
+.li_item:first-child{
+  margin-top: 15rpx;
+}
+.li_item:last-child{
+  margin-top: 15rpx;
+}
+.li_item image{
+height: 50rpx;
+width: 50rpx;
+ margin-left: 30rpx;
+}
+.li_item text{
+  margin-left: 50rpx;
+}

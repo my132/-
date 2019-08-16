@@ -1,0 +1,39 @@
+
+<view class='main'>
+
+ <image class='banner' mode='scaleToFill' src='./img/banner.png'></image>
+<view class=" input_mian">
+ <input  maxlength="10" placeholder="请输入姓名" />
+ </view>
+ 
+ <picker class='date' mode="date" value="{{date}}"  bindchange="bindDateChange">
+    <view class="picker">
+      选择阳历生日: {{date}}
+    </view>
+  </picker>
+
+<button class='yes_btn' bindtap='getdata'  >确定</button>
+
+<view class='content'>
+ <!-- <text>先天数:{{first_num}}</text>  -->
+<text class='title_num'  wx:if="{{life_num>0}}">拥有灵数:{{life_num}}</text> 
+<!-- <text>星座数:{{constellation_num}}</text>  -->
+<text class='title_num'  wx:if="{{excellence_num==11||excellence_num==22||excellence_num==33}}">拥有卓越数:{{excellence_num}}</text> 
+
+<text class='lingshu'  wx:if="{{life_num>0}}">解读: 灵数{{life_num}}</text>
+<text wx:if="{{life_num>0}}">{{life_num_contents}}</text>
+
+
+<text  wx:if="{{excellence_num==11||excellence_num==22||excellence_num==33}}">
+<text class='lingshu'>拥有卓越数</text> 
+<text>{{is_e_c_e_num_contents}}</text>
+</text>
+
+
+<text class='lingshu'  wx:if="{{excellence_num==11||excellence_num==22||excellence_num==33}}">解读: 卓越数{{excellence_num}}</text>
+<text wx:if="{{excellence_num>0}}">{{excellence_num_contents}}</text>
+
+</view>
+
+
+</view>

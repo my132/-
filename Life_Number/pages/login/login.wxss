@@ -1,0 +1,8 @@
+/* pages/login/login.wxss */
+.wx_img{
+  height: 100rpx;
+  width: 100rpx;
+}
+.logo{
+  height: 600rpx;
+} 

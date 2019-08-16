@@ -1,0 +1,58 @@
+/**index.wxss**/
+.date{
+  margin-top: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.picker{
+  border: 1px solid #ddd;
+  width: 80%;
+border-radius: 10rpx;
+  margin: 0 auto;
+
+}
+.input_mian{
+    border: 1px solid #ddd;
+  width: 80%;
+border-radius: 10rpx;
+  margin: 0 auto;
+  height: 80rpx;
+  margin-top: 40rpx;
+}
+.input_mian input{
+  height: 80rpx;
+}
+.title_num{
+  color: red;
+  
+}
+.lingshu{
+  color:#51ABFF;
+  margin-top: 30rpx;
+}
+.main{
+
+  text-align: center;
+
+  height: 100vh;
+}
+.banner{
+   height: 350rpx;
+  width: 100%;
+}
+.yes_btn{
+ margin-top: 50rpx;
+ width: 98%;
+ background: #51ABFF;
+ color: #ffffff;
+} 
+
+.content{
+line-height: 60rpx;
+}
+.content text{
+  padding: 0rpx 30rpx 0rpx 30rpx;
+  text-align: left;
+  display: block;
+  
+}
