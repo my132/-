@@ -1,0 +1,4 @@
+/* pages/about/about.wxss */
+text{display: block;line-height: 50rpx;
+padding: 130rpx;
+}

@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.4",
 	"appid": "wxcf628255205764f8",
-	"projectname": "%E7%94%9F%E5%91%BD%E7%81%B5%E6%95%B0",
+	"projectname": "Life_Number",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
